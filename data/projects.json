@@ -1,0 +1,752 @@
+[
+  {
+    "name": "LangGraph",
+    "category": "Agent runtime",
+    "url": "https://www.langchain.com/langgraph",
+    "tagline": "Stateful orchestration for long-running agents.",
+    "description": "Graph-based control flow for branching, persistence, interrupts, and human-in-the-loop steps.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "graphs"
+    ],
+    "best_for": "Durable agent workflows",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "OpenAI Agents SDK",
+    "category": "Agent runtime",
+    "url": "https://openai.github.io/openai-agents-python/",
+    "tagline": "Compact primitives for agents, tools, and handoffs.",
+    "description": "A production-oriented SDK for building tool-using agents with tracing, guardrails, and orchestration.",
+    "tags": [
+      "Python",
+      "handoffs",
+      "tracing"
+    ],
+    "best_for": "Small, opinionated agent stacks",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "AutoGen",
+    "category": "Agent runtime",
+    "url": "https://microsoft.github.io/autogen/",
+    "tagline": "Multi-agent conversations and collaboration.",
+    "description": "Framework for composing agents, tools, and message-driven workflows across multiple participants.",
+    "tags": [
+      "multi-agent",
+      "Python",
+      "workflows"
+    ],
+    "best_for": "Collaborative agent systems",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "CrewAI",
+    "category": "Agent runtime",
+    "url": "https://www.crewai.com/",
+    "tagline": "Role-based crews and task delegation.",
+    "description": "Opinionated orchestration for agents organized by roles, tasks, and controlled process flows.",
+    "tags": [
+      "roles",
+      "tasks",
+      "Python"
+    ],
+    "best_for": "Business workflows and teams",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Semantic Kernel",
+    "category": "Agent runtime",
+    "url": "https://learn.microsoft.com/semantic-kernel/",
+    "tagline": "Enterprise-friendly agent orchestration from Microsoft.",
+    "description": "SDK for composing prompts, functions, memories, and planning across Python, .NET, and Java.",
+    "tags": [
+      ".NET",
+      "Python",
+      "Java"
+    ],
+    "best_for": "Microsoft-aligned agent apps",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "LlamaIndex",
+    "category": "Agent runtime",
+    "url": "https://www.llamaindex.ai/",
+    "tagline": "Data-aware agents and retrieval pipelines.",
+    "description": "Toolkit for retrieval, query engines, agent workflows, and structured knowledge access.",
+    "tags": [
+      "RAG",
+      "agents",
+      "indexing"
+    ],
+    "best_for": "Knowledge-heavy assistants",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "PydanticAI",
+    "category": "Agent runtime",
+    "url": "https://ai.pydantic.dev/",
+    "tagline": "Typed agent building with Pydantic ergonomics.",
+    "description": "Compact Python framework for structured outputs, tool use, and reliable agent state handling.",
+    "tags": [
+      "typed",
+      "Python",
+      "schemas"
+    ],
+    "best_for": "Schema-first agent apps",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Agno",
+    "category": "Agent runtime",
+    "url": "https://agno.com/",
+    "tagline": "A fast framework for building agent teams.",
+    "description": "Python-first platform for agentic workflows, tool use, structured outputs, and memory-aware systems.",
+    "tags": [
+      "Python",
+      "teams",
+      "tools"
+    ],
+    "best_for": "Developer-friendly agent apps",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "OpenHands",
+    "category": "Agent runtime",
+    "url": "https://www.all-hands.dev/",
+    "tagline": "Generalist software agents with sandboxed execution.",
+    "description": "Open platform for coding agents, browser work, and multi-agent collaboration with safe execution.",
+    "tags": [
+      "coding agent",
+      "sandbox",
+      "browser"
+    ],
+    "best_for": "Software engineering agents",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "E2B",
+    "category": "Execution sandbox",
+    "url": "https://e2b.dev/",
+    "tagline": "Cloud sandboxes for code-executing agents.",
+    "description": "Secure, programmable sandboxes for Python, Node, shell, notebooks, and long-lived sessions.",
+    "tags": [
+      "sandbox",
+      "code interpreter",
+      "files"
+    ],
+    "best_for": "Agents that run code",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Daytona",
+    "category": "Execution sandbox",
+    "url": "https://www.daytona.io/",
+    "tagline": "Dev environments for agentic workflows.",
+    "description": "Secure, ephemeral dev environments for running code, tests, and agent-driven workflows.",
+    "tags": [
+      "dev env",
+      "sandbox",
+      "remote"
+    ],
+    "best_for": "Agent coding environments",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Modal Sandboxes",
+    "category": "Execution sandbox",
+    "url": "https://modal.com/docs/guide/sandbox",
+    "tagline": "Ephemeral remote sandboxes on Modal.",
+    "description": "Runs untrusted or dynamic code in isolated Modal environments for agent-adjacent workloads.",
+    "tags": [
+      "sandbox",
+      "serverless",
+      "Python"
+    ],
+    "best_for": "Dynamic code execution",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Browserbase",
+    "category": "Browser automation",
+    "url": "https://www.browserbase.com/",
+    "tagline": "Hosted browser infrastructure for agents.",
+    "description": "Managed browser sessions, proxies, and production-grade browser automation for web agents.",
+    "tags": [
+      "browser",
+      "Playwright",
+      "sessions"
+    ],
+    "best_for": "Web automation agents",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Browserless",
+    "category": "Browser automation",
+    "url": "https://www.browserless.io/",
+    "tagline": "Headless browser infrastructure at scale.",
+    "description": "Browser automation platform for scraping, QA, and agent workflows that need a real browser.",
+    "tags": [
+      "headless",
+      "browser",
+      "automation"
+    ],
+    "best_for": "Large-scale browser work",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Playwright",
+    "category": "Browser automation",
+    "url": "https://playwright.dev/",
+    "tagline": "Reliable browser automation library.",
+    "description": "Cross-browser automation for web agents, QA, and tool-driven browsing tasks.",
+    "tags": [
+      "browser",
+      "testing",
+      "automation"
+    ],
+    "best_for": "Building browser tools",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Skyvern",
+    "category": "Browser automation",
+    "url": "https://www.skyvern.com/",
+    "tagline": "Browser tasks with AI-driven execution.",
+    "description": "Browser automation system for completing web tasks and structured online workflows.",
+    "tags": [
+      "browser",
+      "workflow",
+      "AI"
+    ],
+    "best_for": "Task-oriented browser agents",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Stagehand",
+    "category": "Browser automation",
+    "url": "https://www.browserbase.com/stagehand",
+    "tagline": "Browser control with natural-language helpers.",
+    "description": "Browserbase project that mixes deterministic Playwright-style control with LLM-assisted actions.",
+    "tags": [
+      "browser",
+      "Playwright",
+      "assistive"
+    ],
+    "best_for": "Hybrid browser automation",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "browser-use",
+    "category": "Browser automation",
+    "url": "https://github.com/browser-use/browser-use",
+    "tagline": "Open-source browser agent framework.",
+    "description": "Python project for browser automation tasks with LLM guidance, page understanding, and actions.",
+    "tags": [
+      "browser",
+      "open source",
+      "Python"
+    ],
+    "best_for": "Open-source browser agents",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Letta",
+    "category": "Memory/context",
+    "url": "https://www.letta.com/",
+    "tagline": "Stateful agents with long-term memory.",
+    "description": "Memory-centric agent platform focused on persistent context, state, and agent self-management.",
+    "tags": [
+      "memory",
+      "state",
+      "agents"
+    ],
+    "best_for": "Persistent personal agents",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Mem0",
+    "category": "Memory/context",
+    "url": "https://mem0.ai/",
+    "tagline": "Universal memory layer for agents.",
+    "description": "Stores and retrieves personalized context across sessions so agents can remember what matters.",
+    "tags": [
+      "memory",
+      "profile",
+      "retrieval"
+    ],
+    "best_for": "Cross-session memory",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Zep",
+    "category": "Memory/context",
+    "url": "https://www.getzep.com/",
+    "tagline": "Memory infrastructure for agent applications.",
+    "description": "Context and conversation memory service for long-running assistants and customer-facing agents.",
+    "tags": [
+      "memory",
+      "conversation",
+      "context"
+    ],
+    "best_for": "Conversation history",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Supermemory",
+    "category": "Memory/context",
+    "url": "https://supermemory.ai/",
+    "tagline": "Personal and app memory for AI products.",
+    "description": "Memory layer for retaining facts, context, and user-specific information across interactions.",
+    "tags": [
+      "memory",
+      "personalization",
+      "context"
+    ],
+    "best_for": "Personalized agents",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Pinecone",
+    "category": "Memory/context",
+    "url": "https://www.pinecone.io/",
+    "tagline": "Vector database widely used for agent memory.",
+    "description": "Managed vector infrastructure for retrieval, memory, semantic search, and embedded context stores.",
+    "tags": [
+      "vector DB",
+      "retrieval",
+      "managed"
+    ],
+    "best_for": "Scalable embedding memory",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Qdrant",
+    "category": "Memory/context",
+    "url": "https://qdrant.tech/",
+    "tagline": "Open-source vector database for memory and retrieval.",
+    "description": "Self-hostable vector engine for agent memory, search, and context retrieval pipelines.",
+    "tags": [
+      "vector DB",
+      "open source",
+      "retrieval"
+    ],
+    "best_for": "Self-hosted memory stores",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Lakera",
+    "category": "Safety/evals",
+    "url": "https://www.lakera.ai/",
+    "tagline": "Prompt-injection and AI security defenses.",
+    "description": "Security layer for protecting agents from prompt injection, unsafe inputs, and malicious content.",
+    "tags": [
+      "security",
+      "prompt injection",
+      "LLM"
+    ],
+    "best_for": "Production safety filters",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Guardrails AI",
+    "category": "Safety/evals",
+    "url": "https://www.guardrailsai.com/",
+    "tagline": "Validation, railings, and output constraints.",
+    "description": "Open-source and commercial tooling for constraining model output and checking structured responses.",
+    "tags": [
+      "validation",
+      "schemas",
+      "safety"
+    ],
+    "best_for": "Output validation",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Promptfoo",
+    "category": "Safety/evals",
+    "url": "https://www.promptfoo.dev/",
+    "tagline": "Eval and red-teaming for prompt and agent safety.",
+    "description": "Test harness for prompt regression, safety checks, model comparisons, and adversarial evals.",
+    "tags": [
+      "evals",
+      "red team",
+      "testing"
+    ],
+    "best_for": "Prompt and agent QA",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Giskard",
+    "category": "Safety/evals",
+    "url": "https://www.giskard.ai/",
+    "tagline": "LLM testing and red-teaming platform.",
+    "description": "Open-source testing suite for model behavior, risk checks, and safety validation in AI systems.",
+    "tags": [
+      "testing",
+      "red team",
+      "open source"
+    ],
+    "best_for": "Safety reviews and audits",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Model Context Protocol",
+    "category": "Tool protocol",
+    "url": "https://modelcontextprotocol.io/",
+    "tagline": "Standard protocol for tools and context.",
+    "description": "Defines how clients connect to tools, prompts, and resources across agent applications.",
+    "tags": [
+      "protocol",
+      "tools",
+      "resources"
+    ],
+    "best_for": "Standardizing tool access",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Smithery",
+    "category": "Tool protocol",
+    "url": "https://smithery.ai/",
+    "tagline": "Discovery and hosting for MCP servers.",
+    "description": "Catalog and deployment surface for MCP servers used by agent clients and developer tools.",
+    "tags": [
+      "MCP",
+      "registry",
+      "hosting"
+    ],
+    "best_for": "Finding MCP servers",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Composio",
+    "category": "App integrations",
+    "url": "https://composio.dev/",
+    "tagline": "Managed app integrations and actions for agents.",
+    "description": "Connects agents to SaaS tools with auth, action schemas, and managed execution.",
+    "tags": [
+      "integrations",
+      "auth",
+      "actions"
+    ],
+    "best_for": "Agents using SaaS tools",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Nango",
+    "category": "App integrations",
+    "url": "https://www.nango.dev/",
+    "tagline": "OAuth and API integrations for agent workflows.",
+    "description": "Handles OAuth, token refresh, and unified integration plumbing for external APIs.",
+    "tags": [
+      "OAuth",
+      "API",
+      "integrations"
+    ],
+    "best_for": "Reliable app connections",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Pipedream",
+    "category": "App integrations",
+    "url": "https://pipedream.com/",
+    "tagline": "Connect APIs and run event-driven workflows.",
+    "description": "Developer platform for triggers, API workflows, and integration logic that agents can call into.",
+    "tags": [
+      "workflows",
+      "API",
+      "events"
+    ],
+    "best_for": "Workflow-backed tools",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Inngest",
+    "category": "App integrations",
+    "url": "https://www.inngest.com/",
+    "tagline": "Durable functions and workflows.",
+    "description": "Event-driven workflow infrastructure for durable background jobs, retries, and agent steps.",
+    "tags": [
+      "durable",
+      "workflows",
+      "events"
+    ],
+    "best_for": "Reliable agent jobs",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Trigger.dev",
+    "category": "App integrations",
+    "url": "https://trigger.dev/",
+    "tagline": "Background jobs for AI and web apps.",
+    "description": "Open-source job platform for long-running tasks, retries, schedules, and API workflows.",
+    "tags": [
+      "jobs",
+      "workflow",
+      "open source"
+    ],
+    "best_for": "Async agent operations",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "LiteLLM",
+    "category": "Model gateway",
+    "url": "https://www.litellm.ai/",
+    "tagline": "OpenAI-compatible gateway across model providers.",
+    "description": "Proxy and SDK for routing, budgets, fallbacks, logging, and provider abstraction.",
+    "tags": [
+      "gateway",
+      "routing",
+      "OpenAI API"
+    ],
+    "best_for": "Multi-provider model access",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "OpenRouter",
+    "category": "Model gateway",
+    "url": "https://openrouter.ai/",
+    "tagline": "Unified API for many model providers.",
+    "description": "Routes requests across a large model catalog with a common API surface and provider marketplace.",
+    "tags": [
+      "models",
+      "routing",
+      "API"
+    ],
+    "best_for": "Broad model choice",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Vercel AI Gateway",
+    "category": "Model gateway",
+    "url": "https://vercel.com/ai-gateway",
+    "tagline": "Managed gateway for model routing and observability.",
+    "description": "Vercel-hosted gateway for calling models with routing, reliability, and usage visibility.",
+    "tags": [
+      "gateway",
+      "routing",
+      "Vercel"
+    ],
+    "best_for": "Frontend-heavy AI apps",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Portkey",
+    "category": "Model gateway",
+    "url": "https://portkey.ai/",
+    "tagline": "AI gateway with guardrails and policy controls.",
+    "description": "Gateway layer for routing, governance, safeguards, and observability across model providers.",
+    "tags": [
+      "gateway",
+      "policy",
+      "routing"
+    ],
+    "best_for": "Controlled production access",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "LangSmith",
+    "category": "Observability",
+    "url": "https://www.langchain.com/langsmith",
+    "tagline": "Tracing, evals, and debugging for LLM apps.",
+    "description": "Observability suite for inspecting runs, prompts, datasets, and agent decision chains.",
+    "tags": [
+      "tracing",
+      "evals",
+      "debugging"
+    ],
+    "best_for": "LangChain-based stacks",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Langfuse",
+    "category": "Observability",
+    "url": "https://langfuse.com/",
+    "tagline": "Open-source LLM observability and analytics.",
+    "description": "Track traces, prompts, metrics, evals, and cost data for production AI systems.",
+    "tags": [
+      "tracing",
+      "open source",
+      "cost"
+    ],
+    "best_for": "Vendor-neutral observability",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Arize Phoenix",
+    "category": "Observability",
+    "url": "https://phoenix.arize.com/",
+    "tagline": "Open-source tracing and evaluation.",
+    "description": "Agent and model observability with spans, retrieval evaluation, and experiment analysis.",
+    "tags": [
+      "tracing",
+      "evals",
+      "open source"
+    ],
+    "best_for": "Local-first analysis",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Helicone",
+    "category": "Observability",
+    "url": "https://www.helicone.ai/",
+    "tagline": "LLM request logging and cost analytics.",
+    "description": "Gateway-style observability for prompts, latency, spend, caching, and usage patterns.",
+    "tags": [
+      "logging",
+      "cost",
+      "gateway"
+    ],
+    "best_for": "Spend and latency tracking",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Braintrust",
+    "category": "Observability",
+    "url": "https://www.braintrust.dev/",
+    "tagline": "Eval platform for model and agent quality.",
+    "description": "Testing, tracing, evals, datasets, and feedback loops for AI products and agents.",
+    "tags": [
+      "evals",
+      "datasets",
+      "feedback"
+    ],
+    "best_for": "Quality workflows",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Modal",
+    "category": "Deployment/compute",
+    "url": "https://modal.com/",
+    "tagline": "Serverless compute for AI jobs and services.",
+    "description": "Elastic Python infrastructure for containers, GPUs, scheduled jobs, queues, and agent backends.",
+    "tags": [
+      "serverless",
+      "GPU",
+      "Python"
+    ],
+    "best_for": "Burst workloads",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Fly.io",
+    "category": "Deployment/compute",
+    "url": "https://fly.io/",
+    "tagline": "Global app deployment close to users.",
+    "description": "Developer-friendly platform for deploying persistent services and workers in multiple regions.",
+    "tags": [
+      "containers",
+      "global",
+      "workers"
+    ],
+    "best_for": "Regional agent backends",
+    "featured": true,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Baseten",
+    "category": "Deployment/compute",
+    "url": "https://www.baseten.co/",
+    "tagline": "Model serving and AI deployment infrastructure.",
+    "description": "Deploys custom models and inference services with autoscaling, observability, and GPU capacity.",
+    "tags": [
+      "model serving",
+      "GPU",
+      "autoscaling"
+    ],
+    "best_for": "Hosted inference",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Replicate",
+    "category": "Deployment/compute",
+    "url": "https://replicate.com/",
+    "tagline": "Run models and AI workflows via API.",
+    "description": "Hosted model execution and prediction infrastructure for apps that need reliable inference endpoints.",
+    "tags": [
+      "inference",
+      "API",
+      "models"
+    ],
+    "best_for": "Quick model deployment",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "RunPod",
+    "category": "Deployment/compute",
+    "url": "https://www.runpod.io/",
+    "tagline": "GPU cloud for model and agent workloads.",
+    "description": "Affordable GPU compute for training, inference, and long-running workloads around agents.",
+    "tags": [
+      "GPU",
+      "cloud",
+      "inference"
+    ],
+    "best_for": "GPU-heavy tasks",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "BentoML",
+    "category": "Deployment/compute",
+    "url": "https://www.bentoml.com/",
+    "tagline": "Model serving and inference deployment tooling.",
+    "description": "Open-source and managed tooling for packaging, serving, and scaling model-backed applications.",
+    "tags": [
+      "serving",
+      "packaging",
+      "open source"
+    ],
+    "best_for": "Self-managed model services",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  }
+]

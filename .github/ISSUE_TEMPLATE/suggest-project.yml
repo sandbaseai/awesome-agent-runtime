@@ -1,0 +1,56 @@
+name: Suggest a project
+description: Suggest an agent runtime or infrastructure project for the list.
+title: "Add: "
+labels: ["project-suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      placeholder: "Example: Browserbase"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Website or GitHub URL
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Agent runtime
+        - Execution sandbox
+        - Browser automation
+        - Tool protocol
+        - App integrations
+        - Memory/context
+        - Safety/evals
+        - Model gateway
+        - Observability
+        - Deployment/compute
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: One or two sentences about what it does.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters for production AI agents
+      description: Explain the runtime, tool, sandbox, memory, eval, deployment, or infrastructure value.
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Useful links
+      description: Docs, examples, GitHub repo, launch post, benchmark, demo, or technical writeup.

@@ -1,0 +1,54 @@
+name: Fix a category, description, or link
+description: Suggest a correction to an existing project entry.
+title: "Fix: "
+labels: ["cleanup"]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project name
+      placeholder: "Example: LangGraph"
+    validations:
+      required: true
+  - type: input
+    id: current_url
+    attributes:
+      label: Current URL in the list
+      placeholder: "https://..."
+    validations:
+      required: false
+  - type: dropdown
+    id: correction_type
+    attributes:
+      label: What should change?
+      options:
+        - Category
+        - Description
+        - URL
+        - Best for
+        - Duplicate entry
+        - Remove entry
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current entry
+      description: Paste the current category, description, URL, or row if helpful.
+    validations:
+      required: false
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested correction
+      description: Explain the correction and provide the preferred wording if you have it.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source or rationale
+      description: Link to docs, README, changelog, issue, or official page that supports the correction.
+    validations:
+      required: false

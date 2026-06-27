@@ -22,6 +22,17 @@ Awesome Agent Runtime maps the infrastructure behind production AI agents: runti
 https://github.com/sandbaseai/awesome-agent-runtime
 ```
 
+## Visual Assets
+
+Use these 16:9 PNG posters for X, LinkedIn, Discord, newsletters, and community updates.
+
+| Use | Asset |
+| --- | --- |
+| Main announcement | `assets/promo-awesome-agent-runtime-map.png` |
+| Maintainer correction outreach | `assets/promo-awesome-maintainers-welcome.png` |
+| Existing ecosystem map | `assets/day18-500-agent-runtime-map.png` |
+| Open-source flywheel | `assets/open-source-growth-flywheel.png` |
+
 ## X / Threads Post
 
 ```text

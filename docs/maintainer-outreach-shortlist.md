@@ -12,7 +12,7 @@ Do not copy-paste comments. Only comment when there is a relevant issue, discuss
 | OpenAI Agents SDK | Agent runtime | Compact agent primitives and tool handoffs |
 | OpenHands | Agent runtime | Coding agents and sandboxed software tasks |
 | E2B | Execution sandbox | Cloud code sandboxes for agents |
-| Browserbase | Browser automation | Hosted browser sessions for web agents |
+| Browserbase | Browser automation | Hosted browser runtime sessions for production web agents |
 | browser-use | Browser automation | Open-source browser agents |
 | Model Context Protocol | Tool protocol | Standardized tool and context access |
 | Letta | Memory/context | Stateful agents and long-term memory |

@@ -11,13 +11,7 @@ https://github.com/sandbaseai/awesome-agent-runtime
 Recommended image:
 
 ```text
-assets/generated-images/day18-500-agent-runtime-map.png
-```
-
-Local source path in the growth repo:
-
-```text
-work/sandbaseai/global-ai-cold-start/assets/generated-images/day18-500-agent-runtime-map.png
+assets/day18-500-agent-runtime-map.png
 ```
 
 ## Positioning

@@ -6,6 +6,38 @@ This is not a generic AI tools directory. The focus is infrastructure that helps
 
 Maintained by [SandBase AI](https://www.sandbase.ai/), an agent infrastructure platform for developers building production AI agents.
 
+![500-project agent runtime map](assets/day18-500-agent-runtime-map.png)
+
+## Current Milestone
+
+This repository now tracks **500 projects** across **10 production-agent infrastructure categories**.
+
+Use it when you want to answer questions like:
+
+- What does the production AI agent stack actually include?
+- Which projects define runtime orchestration, sandboxing, browser automation, MCP/tool protocols, memory, evals, observability, model gateways, and deployment?
+- Where should a new agent-infrastructure project fit in the ecosystem?
+- Which maintainers, repos, or docs are worth following if you build production agents?
+
+## What Makes This Different
+
+Awesome Agent Runtime is intentionally narrow.
+
+![Open-source growth flywheel](assets/open-source-growth-flywheel.png)
+
+It does not try to list every AI app, wrapper, prompt pack, or chatbot product. It focuses on reusable infrastructure that helps agents run against real systems:
+
+- runtime control and orchestration
+- sandboxed code and tool execution
+- browser and computer-use infrastructure
+- MCP, OpenAPI, and tool-surface protocols
+- app integrations, identity, and durable workflows
+- memory, retrieval, and context layers
+- safety, evals, and prompt-injection defenses
+- observability and debugging
+- model routing and gateway layers
+- deployment, compute, and serving infrastructure
+
 ## Contribute
 
 Know a project that belongs here?
@@ -59,7 +91,7 @@ We avoid low-quality AI tool directories, pure prompt libraries, and projects wi
 | [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) | Agent runtime | Compact primitives for agents, tools, and handoffs. | Small, opinionated agent stacks |
 | [OpenHands](https://www.all-hands.dev/) | Agent runtime | Generalist software agents with sandboxed execution. | Software engineering agents |
 | [E2B](https://e2b.dev/) | Execution sandbox | Cloud sandboxes for code-executing agents. | Agents that run code |
-| [Browserbase](https://www.browserbase.com/) | Browser automation | Hosted browser infrastructure for agents. | Web automation agents |
+| [Browserbase](https://www.browserbase.com/) | Browser automation | Hosted browser runtime infrastructure for production web agents. | Web automation agents |
 | [browser-use](https://github.com/browser-use/browser-use) | Browser automation | Open-source browser agent framework. | Open-source browser agents |
 | [Letta](https://www.letta.com/) | Memory/context | Stateful agents with long-term memory. | Persistent personal agents |
 | [Model Context Protocol](https://modelcontextprotocol.io/) | Tool protocol | Standard protocol for tools and context. | Standardizing tool access |
@@ -73,6 +105,20 @@ We avoid low-quality AI tool directories, pure prompt libraries, and projects wi
 The structured project list is maintained in [data/projects.json](data/projects.json).
 
 Current coverage: **500 projects** across **10 infrastructure categories**.
+
+Useful supporting docs:
+
+- [Category guide](docs/categories.md)
+- [Roadmap to 500 projects](docs/roadmap-to-500.md)
+- [Maintainer outreach shortlist](docs/maintainer-outreach-shortlist.md)
+- [Announcement pack](docs/day18-announcement-pack.md)
+- [Promotion kit](docs/promotion-kit.md)
+
+## Public Safety And Neutrality
+
+This list is a curated landscape, not a ranking, endorsement, or claim that SandBase powers these projects.
+
+Descriptions should stay neutral, short, and builder-oriented. If you maintain one of these projects and the description is off, please open an issue or PR and we will adjust it.
 
 ## Agent Runtime
 
@@ -207,7 +253,7 @@ Current coverage: **500 projects** across **10 infrastructure categories**.
 
 | Project | What it is | Best for |
 | --- | --- | --- |
-| [Browserbase](https://www.browserbase.com/) | Hosted browser infrastructure for agents. | Web automation agents |
+| [Browserbase](https://www.browserbase.com/) | Hosted browser runtime infrastructure for production web agents. | Web automation agents |
 | [Browserless](https://www.browserless.io/) | Headless browser infrastructure at scale. | Large-scale browser work |
 | [Playwright](https://playwright.dev/) | Reliable browser automation library. | Building browser tools |
 | [Skyvern](https://www.skyvern.com/) | Browser tasks with AI-driven execution. | Task-oriented browser agents |
@@ -266,7 +312,7 @@ Current coverage: **500 projects** across **10 infrastructure categories**.
 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | Curated list of MCP servers. | MCP server research |
 | [MCPHub](https://github.com/Jeamee/MCPHub-Desktop) | Desktop manager for MCP servers. | Local MCP management |
 | [Composio MCP](https://mcp.composio.dev/) | MCP access to Composio toolkits. | MCP SaaS tools |
-| [Browserbase MCP Server](https://github.com/browserbase/mcp-server-browserbase) | MCP server for Browserbase browser automation. | MCP browser control |
+| [Browserbase MCP Server](https://github.com/browserbase/mcp-server-browserbase) | Hosted browser automation MCP for production agents, exposing session lifecycle, navigation, page action, observation, and extraction tools on managed browser infrastructure. | MCP browser control |
 | [GitHub MCP Server](https://github.com/github/github-mcp-server) | Official GitHub MCP server. | GitHub agent workflows |
 | [Postgres MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) | MCP server for PostgreSQL access. | Database-aware agents |
 | [Filesystem MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | MCP server for filesystem access. | Local file tools |

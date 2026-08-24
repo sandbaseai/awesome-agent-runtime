@@ -209,6 +209,7 @@ Descriptions should stay neutral, short, and builder-oriented. If you maintain o
 | [XAgent](https://github.com/OpenBMB/XAgent) | Open-source autonomous agent framework. | Research agent systems |
 | [Voyager](https://github.com/MineDojo/Voyager) | Lifelong learning agent in Minecraft. | Skill-library agent research |
 | [AgentVerse](https://github.com/OpenBMB/AgentVerse) | Framework for multi-agent collaboration and simulation. | Multi-agent simulations |
+| [rust-norion](https://github.com/yanghao1143/rust-norion) | DNA-inspired Rust inference control-layer prototype with adaptive routing, memory, and reflection. | Research-stage agent control-layer experiments |
 
 ## Execution Sandbox
 

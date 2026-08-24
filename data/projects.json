@@ -7498,5 +7498,22 @@
     "best_for": "API tool collaboration",
     "featured": false,
     "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "rust-norion",
+    "category": "Agent runtime",
+    "url": "https://github.com/yanghao1143/rust-norion",
+    "tagline": "DNA-inspired Rust inference control-layer prototype with adaptive routing, memory, and reflection.",
+    "description": "Research-stage Rust control engine for inference outer-layer routing, memory management, experience replay, and drift gating. Provides a no-backend CLI shell for protocol validation.",
+    "tags": [
+      "Rust",
+      "control-layer",
+      "research-stage",
+      "routing",
+      "memory"
+    ],
+    "best_for": "Research-stage agent control-layer experiments",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
   }
 ]

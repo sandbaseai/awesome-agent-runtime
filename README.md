@@ -10,7 +10,7 @@ Maintained by [SandBase AI](https://www.sandbase.ai/), an agent infrastructure p
 
 ## Current Milestone
 
-This repository now tracks **500 projects** across **10 production-agent infrastructure categories**.
+This repository now tracks **501 projects** across **10 production-agent infrastructure categories**.
 
 Use it when you want to answer questions like:
 
@@ -104,7 +104,7 @@ We avoid low-quality AI tool directories, pure prompt libraries, and projects wi
 
 The structured project list is maintained in [data/projects.json](data/projects.json).
 
-Current coverage: **500 projects** across **10 infrastructure categories**.
+Current coverage: **501 projects** across **10 infrastructure categories**.
 
 Useful supporting docs:
 

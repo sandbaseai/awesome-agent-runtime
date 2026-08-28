@@ -135,6 +135,22 @@
     "source": "SandBase Agent Ecosystem Market"
   },
   {
+    "name": "DeepSeek Harness",
+    "category": "Agent runtime",
+    "url": "https://github.com/deepseek-ai/deepseek-harness",
+    "tagline": "TypeScript CLI runtime for tool-using coding agents.",
+    "description": "Profile- and plugin-based runtime with sessions, MCP, approvals, and sandboxed tool execution; see the operator handbook for source-backed runbooks.",
+    "tags": [
+      "coding agent",
+      "plugins",
+      "MCP",
+      "sandbox"
+    ],
+    "best_for": "Inspectable coding-agent runtimes",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
     "name": "E2B",
     "category": "Execution sandbox",
     "url": "https://e2b.dev/",

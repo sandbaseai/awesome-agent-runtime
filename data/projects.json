@@ -7531,5 +7531,21 @@
     "best_for": "API tool collaboration",
     "featured": false,
     "source": "SandBase Agent Ecosystem Market"
+  },
+  {
+    "name": "Anycloud",
+    "category": "Deployment/compute",
+    "url": "https://anycloud.sh/",
+    "tagline": "Multi-cloud execution for containerized AI jobs, services, and VMs in connected cloud accounts.",
+    "description": "BYOC platform for running containerized jobs, services, and VMs across connected cloud accounts, including agent and GPU workloads.",
+    "tags": [
+      "multi-cloud",
+      "BYOC",
+      "GPU",
+      "containers"
+    ],
+    "best_for": "BYOC agent and GPU workloads",
+    "featured": false,
+    "source": "Curated infrastructure expansion"
   }
 ]

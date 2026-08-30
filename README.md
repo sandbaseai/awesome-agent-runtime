@@ -10,7 +10,7 @@ Maintained by [SandBase AI](https://www.sandbase.ai/), an agent infrastructure p
 
 ## Current Milestone
 
-This repository now tracks **500 projects** across **10 production-agent infrastructure categories**.
+This repository now tracks **501 projects** across **10 production-agent infrastructure categories**.
 
 Use it when you want to answer questions like:
 
@@ -104,7 +104,7 @@ We avoid low-quality AI tool directories, pure prompt libraries, and projects wi
 
 The structured project list is maintained in [data/projects.json](data/projects.json).
 
-Current coverage: **500 projects** across **10 infrastructure categories**.
+Current coverage: **501 projects** across **10 infrastructure categories**.
 
 Useful supporting docs:
 
@@ -613,6 +613,7 @@ Descriptions should stay neutral, short, and builder-oriented. If you maintain o
 | [Ray](https://www.ray.io/) | Distributed compute framework for AI workloads. | Distributed agent compute |
 | [Ray Serve](https://docs.ray.io/en/latest/serve/) | Scalable model and application serving on Ray. | Python model services |
 | [SkyPilot](https://skypilot.readthedocs.io/) | Run AI workloads on any cloud. | Portable agent compute |
+| [Anycloud](https://anycloud.sh/) | Multi-cloud execution for containerized AI jobs, services, and VMs in connected cloud accounts. | BYOC agent and GPU workloads |
 | [KServe](https://kserve.github.io/website/) | Kubernetes model serving platform. | Kubernetes inference |
 | [LangGraph Platform](https://www.langchain.com/langgraph-platform) | Deployment platform for LangGraph agents. | Hosted LangGraph agents |
 | [Runhouse](https://www.run.house/) | Compute and data runtime for AI workloads. | Portable AI compute |

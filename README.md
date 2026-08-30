@@ -134,6 +134,7 @@ Descriptions should stay neutral, short, and builder-oriented. If you maintain o
 | [Agno](https://agno.com/) | A fast framework for building agent teams. | Developer-friendly agent apps |
 | [OpenHands](https://www.all-hands.dev/) | Generalist software agents with sandboxed execution. | Software engineering agents |
 | [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) | Profile- and plugin-based TypeScript runtime with sessions, MCP, approvals, and sandboxed tool execution. Pair it with the [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) for source-backed runbooks and multilingual ecosystem guidance. | Inspectable coding-agent runtimes |
+| [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) | Local-first TypeScript runtime with persistent sessions, sandboxed tools, MCP integration, memory, credentials, audit logs, replay, and local or self-hosted deployment. | Inspectable self-hosted agent operations |
 | [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | Python and .NET framework for agents and multi-agent workflows. | Enterprise multi-agent workflows |
 | [Mastra](https://mastra.ai/) | TypeScript framework for AI agents and workflows. | TypeScript agent apps |
 | [VoltAgent](https://voltagent.dev/) | Open-source TypeScript platform for agent engineering. | Agent engineering in Node.js |

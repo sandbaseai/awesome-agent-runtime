@@ -10,7 +10,7 @@ Maintained by [SandBase AI](https://www.sandbase.ai/), an agent infrastructure p
 
 ## Current Milestone
 
-This repository now tracks **500 projects** across **10 production-agent infrastructure categories**.
+This repository now tracks **501 projects** across **10 production-agent infrastructure categories**.
 
 Use it when you want to answer questions like:
 
@@ -104,7 +104,7 @@ We avoid low-quality AI tool directories, pure prompt libraries, and projects wi
 
 The structured project list is maintained in [data/projects.json](data/projects.json).
 
-Current coverage: **500 projects** across **10 infrastructure categories**.
+Current coverage: **501 projects** across **10 infrastructure categories**.
 
 Useful supporting docs:
 
@@ -211,6 +211,7 @@ Descriptions should stay neutral, short, and builder-oriented. If you maintain o
 | [XAgent](https://github.com/OpenBMB/XAgent) | Open-source autonomous agent framework. | Research agent systems |
 | [Voyager](https://github.com/MineDojo/Voyager) | Lifelong learning agent in Minecraft. | Skill-library agent research |
 | [AgentVerse](https://github.com/OpenBMB/AgentVerse) | Framework for multi-agent collaboration and simulation. | Multi-agent simulations |
+| [rust-norion](https://github.com/yanghao1143/rust-norion) | DNA-inspired Rust inference control-layer prototype with adaptive routing, memory, and reflection. | Research-stage agent control-layer experiments |
 
 ## Execution Sandbox
 

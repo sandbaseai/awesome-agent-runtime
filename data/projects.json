@@ -151,6 +151,23 @@
     "source": "SandBase Agent Ecosystem Market"
   },
   {
+    "name": "SandBase Harness",
+    "category": "Agent runtime",
+    "url": "https://github.com/sandbaseai/sandbase-harness",
+    "tagline": "Local-first runtime for auditable AI agent sessions.",
+    "description": "TypeScript runtime with persistent sessions, sandboxed tools, MCP integration, memory, credentials, audit logs, replay, and local or self-hosted deployment.",
+    "tags": [
+      "local-first",
+      "MCP",
+      "sandbox",
+      "audit",
+      "TypeScript"
+    ],
+    "best_for": "Inspectable self-hosted agent operations",
+    "featured": false,
+    "source": "SandBase Agent Ecosystem Market"
+  },
+  {
     "name": "E2B",
     "category": "Execution sandbox",
     "url": "https://e2b.dev/",

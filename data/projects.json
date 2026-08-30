@@ -155,7 +155,7 @@
     "category": "Agent runtime",
     "url": "https://github.com/sandbaseai/sandbase-harness",
     "tagline": "Local-first runtime for auditable AI agent sessions.",
-    "description": "TypeScript runtime with persistent sessions, sandboxed tools, MCP integration, memory, credentials, audit logs, replay, and local or self-hosted deployment.",
+    "description": "TypeScript runtime with persistent sessions, sandboxed tools, MCP integration, memory, credentials, audit logs, replay, and local or self-hosted deployment. The current release is v0.3.8; verify the published integration through the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.sandbaseai%2Fsandbase-harness), [dshbase](https://dshbase.com/plugins/sandbase-harness/), and the [client installation guide](https://github.com/sandbaseai/sandbase-harness/blob/main/llms-install.md).",
     "tags": [
       "local-first",
       "MCP",

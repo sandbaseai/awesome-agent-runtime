@@ -224,6 +224,7 @@ Descriptions should stay neutral, short, and builder-oriented. If you maintain o
 | [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) | Open sandbox platform with SDKs and network policy controls. | Sandboxed agent execution |
 | [gVisor](https://gvisor.dev/) | Application kernel for container sandboxing. | Hardening containerized tools |
 | [Firecracker](https://firecracker-microvm.github.io/) | Lightweight microVMs for secure multi-tenant workloads. | MicroVM-based sandboxes |
+| [CreateOS Sandbox](https://createos.sh/products/sandbox) | Managed Firecracker micro-VMs for AI agents with private networking and pause-to-zero. | Hardware-isolated agent code execution |
 | [Kata Containers](https://katacontainers.io/) | Secure container runtime with lightweight VMs. | Secure container sandboxes |
 | [Wasmtime](https://wasmtime.dev/) | Fast and secure WebAssembly runtime. | Wasm-based tool isolation |
 | [Pyodide](https://pyodide.org/) | Python runtime compiled to WebAssembly. | In-browser Python execution |

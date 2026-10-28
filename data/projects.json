@@ -1968,6 +1968,22 @@
     "source": "Curated infrastructure expansion"
   },
   {
+    "name": "CreateOS Sandbox",
+    "category": "Execution sandbox",
+    "url": "https://createos.sh/products/sandbox",
+    "tagline": "Firecracker micro-VMs for AI agents.",
+    "description": "Managed Firecracker sandboxes with own-kernel isolation, private networking, pause-to-zero with state preserved, host-enforced egress allowlists, and SDK/CLI/MCP/REST interfaces.",
+    "tags": [
+      "Firecracker",
+      "microVM",
+      "MCP",
+      "TypeScript"
+    ],
+    "best_for": "Agents that need hardware-isolated code execution with pause/resume",
+    "featured": false,
+    "source": "community"
+  },
+  {
     "name": "gVisor",
     "category": "Execution sandbox",
     "url": "https://gvisor.dev/",
